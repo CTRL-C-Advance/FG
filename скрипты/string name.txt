@@ -1,0 +1,23 @@
+string name 
+string op
+
+public void tts ()
+{
+
+
+
+    op = ConsoleReadline("ваше имя ");
+    if (op == "Максим" or "Макс" or "максим" or "макс")
+    {
+        ConsoleWriteline("Вы максимен");
+
+
+    }
+
+    else
+    {
+        ConsoleWriteline("вы не максимен");
+        tts();
+
+    }
+}
